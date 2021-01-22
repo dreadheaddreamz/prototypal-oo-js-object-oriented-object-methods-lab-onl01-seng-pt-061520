@@ -14,5 +14,7 @@ function BoardMember(name, homeState, training) {
   BoardMember.prototype.doCharity = function(){
     return "I like to help people."
   }
-  BoardMember.prototype.
+  BoardMember.prototype.releasePressStatement = function() {
+    return ""
+  }
 }
